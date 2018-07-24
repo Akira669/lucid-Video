@@ -1,0 +1,62 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
+body {
+    background: #221f1f;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+}
+
+.Logo {
+    width: 151px;
+    height: 41px;
+    margin-right: 10px;
+    -webkit-transition: margin .125s ease;
+    transition: margin .125s ease;
+}
+.Logo svg {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.Logo svg path {
+    fill: #e50914;
+    -webkit-transition: fill .125s ease;
+    transition: fill .125s ease;
+}
+.Logo:hover {
+    cursor: pointer;
+    margin-top: 2px;
+}
+.Logo:hover svg path {
+    fill: #ffffff !important;
+}
+
+.Navigation ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 37px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.Navigation ul li {
+    font-weight: 400;
+    padding: 7px 10px;
+    font-size: 14px;
+    -webkit-transition: background .125s ease;
+    transition: background .125s ease;
+    border-radius: 3px;
+}
+.Navigation ul li:hover {
+    background: #e50914;
+    cursor: pointer;
+}
+
+
+
