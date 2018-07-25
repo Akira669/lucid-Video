@@ -1,6 +1,6 @@
 # lucid-video
 
-### se utilizo el servidor the movied db para als pruebas de ingreso
+### se utilizo el servidor the movied db para las pruebas de ingreso
 >Api
 ```
 $ https://api.themoviedb.org/3/movie/550?api_key=<<key>>
