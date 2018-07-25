@@ -30,7 +30,7 @@ body {
     margin-top: 2px;
 }
 .Logo:hover svg path {
-    fill: #ffffff !important;
+    fill: #ffffff ;
 }
 
 .Navigation ul {

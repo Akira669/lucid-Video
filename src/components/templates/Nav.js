@@ -7,9 +7,9 @@ const Navar = () => (
     <div id="navigator" className="Navigation" >
         <nav>
             <ul>
-                <li>Busqueda</li>
-                <li>Mi lista</li>
-                <li>Exitos</li>
+                <li>Inicio</li>
+                <li>Peliculas</li>
+                <li>Series</li>
                 <li>Estrenos</li>
             </ul>
         </nav>
